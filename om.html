@@ -13,8 +13,10 @@
 <body>
     <header class="hero">
          <picture>
-            <source srcet="bilder/header.webp" type="image/webp">
-            <img src="bilder/header.png" width="1480" height="320" alt="Bron över ljungan" class="hero-img">
+             <source srcset="bilder/header-480.webp 480w, bilder/header-1319.webp 1319w"
+            sizes="(max-width:768px) 100vw, 1320px"
+            type="image/webp">
+            <img src="bilder/header-1319.png" width="1319" height="514"alt="Bron över ljungan" class="hero-img">
         </picture>
         <div class="hero-content">
             <img src="bilder/loga.svg" width="112" height="83" alt="loggan är en kamera" class="logo">
