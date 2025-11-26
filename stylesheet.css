@@ -4,12 +4,13 @@
     height: 20em;
     flex-wrap: wrap;
 }
+
 .hero-img {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height:100%;
+    height: 100%;
     object-fit: cover;
     opacity: 0.8;
     z-index: -1;
@@ -35,38 +36,52 @@
     font-size: 1.3em;
     line-height: 1.5em;
 }
+
 .meny a {
-    
+
     background-color: rgb(255, 255, 255);
     padding: 0.2em;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h2 {
+    padding-left: 4em;
+    font-family: sans-serif;
 }
 
 body {
     background-color: rgba(142, 154, 177, 0.336);
 }
 
-.intro > p {
+.intro {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.intro>p {
     width: min(80%, 40rem);
-    margin: 2em auto;
+    margin: 1em auto;
     text-align: center;
     font-size: 1.5em;
     color: #2c2c2c;
-    
-
 }
 
 .bilder {
     display: flex;
     flex-direction: column;
     place-content: center;
+    text-align: center;
     gap: 3em;
-    padding: 2em;
+    padding: 1em;
 }
 
 .bilder img {
     width: 60%;
     height: auto;
-
 }
 
 footer {
