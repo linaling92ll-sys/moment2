@@ -73,10 +73,13 @@ body {
 .bilder {
     display: flex;
     flex-direction: column;
-    place-content: center;
-    text-align: center;
+    align-items: center;
     gap: 3em;
     padding: 1em;
+}
+
+.bilder h2 {
+    margin: 0;
 }
 
 .bilder img {
