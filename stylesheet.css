@@ -123,6 +123,15 @@ section p {
     padding-top: 5rem;
     font-size: 1.5em;
 }
+section h2 {
+    width: 100%;
+    margin-bottom: 1em;
+}
+section h1 {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
 
 .me {
     display: flex;
@@ -132,7 +141,6 @@ section p {
     place-content: center;
     padding-left: 2em;
     font-family: sans-serif;
-    font-display: auto;
     font-size: 1.5em;
     line-height: 1.5em;
 }
